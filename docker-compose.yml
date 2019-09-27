@@ -11,7 +11,8 @@ services:
       - .:/var/www/html
 
   php:
-    build: docker/web
+    # build: docker/web
+    image: rscafi/mongodb-workshop-base-php
     depends_on:
       - db
     volumes:
