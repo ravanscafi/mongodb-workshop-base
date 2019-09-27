@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/post/{id}', function (string $id) {
+    return view('posts.show');
+})->name('post.show');
