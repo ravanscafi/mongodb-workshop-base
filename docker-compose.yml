@@ -19,7 +19,7 @@ services:
       - .:/var/www/html
 
   db:
-    image: mongo
+    image: mvertes/alpine-mongo
     volumes:
       - db:/data/db
 
