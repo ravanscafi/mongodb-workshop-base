@@ -11,7 +11,9 @@
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.0",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "leroy-merlin-br/mongolid": "v3.x-dev",
+        "leroy-merlin-br/mongolid-laravel": "v3.x-dev"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
